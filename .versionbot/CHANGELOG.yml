@@ -1,4 +1,14 @@
 - commits:
+    - subject: Add os.sshKeys to generateBaseConfig
+      hash: 90a28153808bc268148266c55df51bc47b2eb28e
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Michel Wohlert
+  version: 11.6.0
+  date: 2019-07-08T16:15:45.966Z
+- commits:
     - subject: Add release target in repo.yml
       hash: 32e72c832f10f96048fda9f2d532bfbb49c632c0
       body: ''
