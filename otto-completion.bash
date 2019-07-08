@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_balena_complete()
+_otto_complete()
 {
   local cur prev
 
@@ -70,4 +70,4 @@ _balena_complete()
   fi
 
 }
-complete -F _balena_complete balena
+complete -F _otto_complete balena

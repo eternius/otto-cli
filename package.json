@@ -1,12 +1,12 @@
 {
-  "name": "balena-cli",
+  "name": "otto-cli",
   "version": "11.5.0",
-  "description": "The official balena CLI tool",
+  "description": "The official otto CLI tool",
   "main": "./build/actions/index.js",
-  "homepage": "https://github.com/balena-io/balena-cli",
+  "homepage": "https://github.com/eternius/otto-cli",
   "repository": {
     "type": "git",
-    "url": "git@github.com:balena-io/balena-cli.git"
+    "url": "git@github.com:eternius/otto-cli.git"
   },
   "preferGlobal": true,
   "files": [
@@ -55,25 +55,20 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "balena",
-    "balena.io",
-    "balenaCloud",
-    "balenaOS",
-    "resin",
-    "resin.io",
+    "otto",
     "git"
   ],
-  "author": "Juan Cruz Viotti <juan@balena.io>",
+  "author": "Sony2 <sony2@eternius.com>",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=8.0"
   },
   "oclif": {
-    "bin": "balena",
+    "bin": "otto",
     "commands": "./build/actions-oclif",
     "macos": {
-      "identifier": "io.balena.cli",
-      "sign": "Developer ID Installer: Rulemotion Ltd (66H43P8FRG)"
+      "identifier": "io.otto.cli",
+      "sign": "Developer ID Installer: Eternius"
     }
   },
   "devDependencies": {

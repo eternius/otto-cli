@@ -22,4 +22,4 @@ deploy:
     on:
       tags: true
       condition: "$TRAVIS_TAG =~ ^v?[[:digit:]]+\\.[[:digit:]]+\\.[[:digit:]]+"
-      repo: balena-io/balena-cli
+      repo: otto-io/otto-cli
